@@ -144,3 +144,68 @@ p{
     justify-content: center;
     transform-origin: center;
 }
+
+.texto3{
+    width: 50%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.bg-imagem-botafogoxgama{
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-image: url(img/jogo\ botafogo\ x\ gama.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+.texto4{
+    width: 50%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.bg-imagem-elenco79{
+    display: flex;
+    width: 44%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-image: url(img/foto\ elenco\ 79.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+.texto5{
+    width: 50%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
