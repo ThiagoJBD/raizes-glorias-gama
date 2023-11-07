@@ -39,7 +39,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 600px;
-    background-image: url(img/teste.jpg);
+    background-image: url(img/jogo\ botafogo\ x\ gama.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -100,4 +100,47 @@ p{
 .espaco{
     width: 100%;
     height: 20px;
+}
+
+.bg-imagem-panela{
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-image: url(img/ze\ do\ gas\ panela.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+.texto2{
+    width: 50%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.bg-imagem-biblia{
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-image: url(img/biblia-ze-do-gas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
 }
