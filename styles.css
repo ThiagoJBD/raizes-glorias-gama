@@ -3,10 +3,6 @@
     padding: 0px;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .topnav{
     width: 100%;
     min-height: 40px;
@@ -80,18 +76,18 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.texto1{
+.corpo{
     width: 50%;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 20px;
 }
 
 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
     display: block;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -102,9 +98,9 @@ p{
     height: 20px;
 }
 
-.bg-imagem-panela{
+.bg1{
     display: flex;
-    width: 40%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
@@ -118,20 +114,9 @@ p{
     transform-origin: center;
 }
 
-.texto2{
-    width: 50%;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-}
-
-.bg-imagem-biblia{
+.bg2{
     display: flex;
-    width: 40%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
@@ -145,20 +130,9 @@ p{
     transform-origin: center;
 }
 
-.texto3{
-    width: 50%;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-}
-
-.bg-imagem-botafogoxgama{
+.bg3{
     display: flex;
-    width: 40%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
@@ -172,20 +146,10 @@ p{
     transform-origin: center;
 }
 
-.texto4{
-    width: 50%;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-}
 
-.bg-imagem-elenco79{
+.bg4{
     display: flex;
-    width: 44%;
+    width: 88%;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
@@ -199,13 +163,40 @@ p{
     transform-origin: center;
 }
 
-.texto5{
-    width: 50%;
-    margin-top: 0;
+.bg5{
+    display: flex;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 20px;
+    height: 500px;
+    background-image: url(img/Wagner\ Marques.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+.bg6{
+    display: flex;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    background-image: url(img/rochinha\ como\ jogador.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: blue;
 }
