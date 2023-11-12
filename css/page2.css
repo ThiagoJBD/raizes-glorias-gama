@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.topnav{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.centernav{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom-color: white;
+}
+
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    background-color: white;
+    color: blue;
+}
+
+.bg{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-image: url(../img/jogo\ botafogo\ x\ gama.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.bg-titulo{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.bg-texto{
+    font-size: 60px;
+    color: white;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.bg-subtitulo{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(9, 11, 95);
+    margin-top: 200px;
+}
+
+.bg-subtitulo-texto{
+    padding: 0px 30px 0px 30px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpo{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.espaco{
+    width: 100%;
+    height: 20px;
+}
+
+.bg1{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    background-image: url(../img/gama\ serie\ d\ 2021.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+.bg2{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    background-image: url(img/biblia-ze-do-gas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+.bg3{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-image: url(../img/briga\ entre\ as\ organizadas\ 2000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+
+.bg4{
+    display: flex;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-image: url(img/foto\ elenco\ 79.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+.bg5{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    background-image: url(img/Wagner\ Marques.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+.bg6{
+    display: flex;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    background-image: url(../img/gama\ campeão\ candango\ sub\ 20.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+.bg7{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    background-image: url(../img/wendel\ -\ atual\ presidente\ do\ clube.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+}
