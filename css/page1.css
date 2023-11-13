@@ -93,6 +93,10 @@ p{
     margin-inline-end: 0px;
 }
 
+.aspas {
+    font-style: italic;
+}
+
 .espaco{
     width: 100%;
     height: 20px;
@@ -170,7 +174,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     height: 700px;
-    background-image: url(img/Wagner\ Marques.jpg);
+    background-image: url(../img/);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -218,7 +222,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     height: 700px;
-    background-image: url(../img/gerson.jpg);
+    background-image: url(../img/taça-serie-b.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
