@@ -3,15 +3,19 @@
     padding: 0px;
 }
 
+body {
+    font-size: 16px;
+}
+
 .topnav{
     width: 100%;
-    min-height: 40px;
+    min-height: 2vw;
     overflow: hidden;
-    background-color: blue;
+    background-color: #092E23;
 }
 
 .centernav{
-    width: 50%;
+    width: 60%;
     margin-right: auto;
     margin-left: auto;
     border-bottom-color: white;
@@ -28,7 +32,7 @@
 
 .topnav a.active {
     background-color: white;
-    color: blue;
+    color: #092E23;
 }
 
 .bg{
@@ -55,7 +59,7 @@
 }
 
 .bg-texto{
-    font-size: 60px;
+    font-size: 4vw;
     color: white;
     font-family: Arial,Helvetica,sans-serif;
 }
@@ -65,19 +69,19 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(9, 11, 95);
+    background-color: #126B51;
     margin-top: 200px;
 }
 
 .bg-subtitulo-texto{
     padding: 0px 30px 0px 30px;
-    font-size: 30px;
+    font-size: 2vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .corpo{
-    width: 50%;
+    width: 90%;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -85,7 +89,7 @@
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: serif;
     font-size: 18px;
     line-height: 20px;
     display: block;
@@ -104,7 +108,7 @@ p{
 
 .bg1{
     display: flex;
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     height: 700px;
@@ -136,7 +140,7 @@ p{
 
 .bg3{
     display: flex;
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
@@ -153,7 +157,7 @@ p{
 
 .bg4{
     display: flex;
-    width: 88%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
@@ -169,7 +173,7 @@ p{
 
 .bg5{
     display: flex;
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
@@ -185,7 +189,7 @@ p{
 
 .bg6{
     display: flex;
-    width: 88%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     height: 600px;
@@ -201,7 +205,7 @@ p{
 
 .bg7{
     display: flex;
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     height: 600px;
@@ -217,10 +221,10 @@ p{
 
 .bg8{
     display: flex;
-    width: 80%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
-    height: 600px;
+    height: 700px;
     background-image: url(../img/foto-torcedor-n1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,6 +237,52 @@ p{
 
 footer{
     width: 100%;
-    height: 80px;
-    background-color: blue;
+    height: 8vw;
+    background-color: #092E23;
+}
+
+@media only screen and (max-width: 768px) {
+    .bg {
+        height: 400px;
+    }
+
+    .bg1{
+        width: 60%;
+        height: 300px;
+    }
+
+    .bg2 {
+        width: 70%;
+        height: 300px;
+    }
+
+    .bg3 {
+        width: 90%;
+        height: 300px;
+    }
+
+    .bg4 {
+        width: 80%;
+        height: 260px;
+    }
+
+    .bg5 {
+        width: 80%;
+        height: 300px;
+    }
+
+    .bg6 {
+        width: 70%;
+        height: 240px;
+    }
+
+    .bg7 {
+        width: 60%;
+        height: 250px;
+    }
+
+    .bg8 {
+        width: 60%;
+        height: 360px;
+    }
 }
