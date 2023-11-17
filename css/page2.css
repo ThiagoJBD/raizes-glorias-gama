@@ -107,6 +107,12 @@ p{
     height: 20px;
 }
 
+.audio1 {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .bg1{
     display: flex;
     width: 70%;
