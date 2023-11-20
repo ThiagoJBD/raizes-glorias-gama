@@ -52,19 +52,6 @@ body {
     overflow-x: hidden;
 }
 
-.bg-titulo{
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-}
-
-.bg-texto{
-    font-size: 4vw;
-    color: white;
-    font-family: Arial,Helvetica,sans-serif;
-}
-
 .bg-subtitulo{
     width: auto;
     height: auto;
@@ -76,7 +63,7 @@ body {
 
 .bg-subtitulo-texto{
     padding: 0px 30px 0px 30px;
-    font-size: 2vw;
+    font-size: 2.2vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
